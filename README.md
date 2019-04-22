@@ -2,7 +2,10 @@
 
 ##### Table of Contents  
 [HW1-begin familiar with python pakage](#hw1)  
-[HW2-implement MLP in MNIST Dataset](#hw2)  
+[HW2-implement MLP in MNIST Dataset](#hw2)
+[HW3-back propogation](#hw3)  
+[HW4-human emotion classification (CNN)](#hw4)  
+[HW5-language detection (RNN)](#hw5)  
 
 
 ## HW1
@@ -14,3 +17,11 @@ HW4 used CNN to classify facial emotion
 ## HW2
 
 In this homework, I implement a Multi Layer Perceptron Neural Network in the [MNIST Dataset](http://yann.lecun.com/exdb/mnist/), 
+
+## HW3
+
+
+## HW4
+
+
+## HW5
