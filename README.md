@@ -2,7 +2,7 @@
 
 ##### Table of Contents  
 [HW1-begin familiar with python pakage](#hw1)  
-[HW2-](#hw2)  
+[HW2-implement MLP in MNIST Dataset](#hw2)  
 ...snip...    
 <a name="headers"/>
 ## HW1
@@ -13,13 +13,4 @@ HW4 used CNN to classify facial emotion
 
 ## HW2
 
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
->   good example
->         yes it is
+In this homework, I implement a Multi Layer Perceptron Neural Network in the [MNIST Dataset](#http://yann.lecun.com/exdb/mnist/), 
