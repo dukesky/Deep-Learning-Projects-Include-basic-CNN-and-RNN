@@ -4,7 +4,7 @@
 [HW1-begin familiar with python pakage](#hw1)  
 [HW2-implement MLP in MNIST Dataset](#hw2)  
 
-<a name="headers"/>
+
 ## HW1
 
 This is my project code of EE599- Deep Learning, the code include each HW and Final project, coded in Python.
