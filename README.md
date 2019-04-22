@@ -21,3 +21,5 @@ HW4 used CNN to classify facial emotion
 > Here's some example code:
 > 
 >     return shell_exec("echo $input | $markdown_script");
+>   good example
+>         yes it is
