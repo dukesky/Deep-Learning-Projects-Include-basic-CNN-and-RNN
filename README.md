@@ -1,8 +1,8 @@
 # USC -EE599 - Deep Learning
 
 ##### Table of Contents  
-[HW1](#hw1)  
-[HW2](#egoodsa)  
+[HW1-begin familiar with python pakage](#hw1)  
+[HW2-](#hw2)  
 ...snip...    
 <a name="headers"/>
 ## HW1
@@ -12,3 +12,12 @@ This is my project code of EE599- Deep Learning, the code include each HW and Fi
 HW4 used CNN to classify facial emotion 
 
 ## HW2
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
