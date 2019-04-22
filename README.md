@@ -1,11 +1,11 @@
 # USC -EE599 - Deep Learning
 
 ##### Table of Contents  
--[HW1-begin familiar with python pakage](#hw1)  
--[HW2-implement MLP in MNIST Dataset](#hw2) 
--[HW3-back propogation](#hw3) 
--[HW4-human emotion classification (CNN)](#hw4)   
--[HW5-language detection (RNN)](#hw5)   
+- [HW1-begin familiar with python pakage](#hw1)  
+- [HW2-implement MLP in MNIST Dataset](#hw2) 
+- [HW3-back propogation](#hw3) 
+- [HW4-human emotion classification (CNN)](#hw4)   
+- [HW5-language detection (RNN)](#hw5)   
 
 
 
