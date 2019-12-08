@@ -21,12 +21,14 @@ i.e., the gain of the frequency response at zero frequency is 1. Also by "AR" it
 b[i] = 0 for all i > 0. This type of lter has a single parameter \alpha which is the pole location
 in the z-plane.
 - (a) Specify the difference equation and Z-transform for this first order AR filter - i.e., specify
-b[0], and a[1] in terms of \alpha. Note that, in the standard form in Fig. 1 a[0] = 1 by default,
+b[0], and a[1] in terms of /alpha. Note that, in the standard form in Fig. 1 a[0] = 1 by default,
 but, just as in matlab, you need to enter for a[0] in the Python routine.
-- (b) Plot the magnitude of the frequency response for \alpha = 0.9, \alpha = 0.5, \alpha = 0.1, \alpha = -0.5.
+- (b) Plot the magnitude of the frequency response for \alpha = 0.9, \alpha = 0.5, $alpha$ = 0.1, \alpha = -0.5.
 Use linear normalized frequency v, which is unique on [-1/2, +1/2] and has units of
 cycles per sample. *Hint: use `scipy.signal.freqz`*.
+---
 ![image1](../images/q2.png)
+---
 Figure 1: The general format and notation for an ARMA filter. The arrays of AR coefficients a[n]
 and MA coefficients b[n] dene the filter. The order of teh filter is the number of delay elements in
 this diagram, L.

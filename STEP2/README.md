@@ -17,7 +17,9 @@ sponding labels in the key `ydata'. Extract these. Note that each image is 784-d
 and each label is one-hot 10-dimensional. So if the label for an image is [0; 0; 0; 1; 0; 0; 0; 0; 0; 0],
 it means the image depicts a 3.
 - (c) Write functions for calculating ReLU and softmax. These are given as:
+---
 ![question1](../images/q1.png)
+---
 - (d) Using numpy, program a MLP that takes a 784-dimensional input image and calculates its
 10-dimensional output. Use ReLU activation for the 2 hidden layers and softmax for the
 output layer.
