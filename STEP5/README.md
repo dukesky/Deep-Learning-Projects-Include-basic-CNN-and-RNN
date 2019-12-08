@@ -10,12 +10,12 @@ this homework, we will try to classify three languages (English, Hindi and Manda
 spoken utterances that have been crowd-sourced from the class.
 ### 2 Goals
 In this project you will learn to:
-1. Extract Mel-frequency cepstral coecients (MFCCs) from audio, which will be employed as
+1. Extract Mel-frequency cepstral coeeficients (MFCCs) from audio, which will be employed as
 features.
 2. Implement a GRU/LSTM model, and train it to classify the languages.
 ### 3 Steps
 #### 3.1 Dataset
-The dataset has a bunch of wav les and a csv le containing labels. The wav le names are
+The dataset has a bunch of wav fles and a csv file containing labels. The wav file names are
 anonymized, and class labels are provided as integers. You are supposed to train with the provided
 integer class labels.
 The following mapping is used to convert language IDs to integer labels:
@@ -34,7 +34,7 @@ language independent of speakers. You are free to create any validation split fr
 #### 3.5 MFCC Features
 MFCC features are widely employed in various speech processing applications including LID [2].
 You are supposed to employ MFCC features for this homework, so that the input features are same
-for everyone and the dierences in performance do not depend on the choice of features.
+for everyone and the differences in performance do not depend on the choice of features.
 You can utilize [Librosa](https://librosa.github.io/librosa/index.html) to extract 64
 dimensional MFCC features for all utterances. A sample code snippet is provided below:
 `import librosa`
@@ -44,19 +44,19 @@ dimensional MFCC features for all utterances. A sample code snippet is provided 
 `print(y.shape, sr, mat.shape)`
 
 #### 3.6 Sample length
-The full audio les are  10 minutes long. It might be too long to train an RNN. You can create
+The full audio files are 10 minutes long. It might be too long to train an RNN. You can create
 multiple 3-10 seconds samples from every utterance and assign them the same label as the original
 utterance. The choice of sequence length is up to you, and you are encouraged to experiment with
 that. You can follow existing literature such as [1, 2]. Please note that the held out test set might
 have short and as well as long utterances.
 #### 3.7 Submission Material
-You will submit a \streaming model" based on your training. The conversion for the sequence-
+You will submit a "streaming model" based on your training. The conversion for the sequence-
 trained model and the streaming model can be done as shown in lecture (see mind reader.py).
 You streaming model should give three output scores (probabilities) for each 10 msec feature vector
 that it accepts { i.e., there are the probability of English, Hindi, and Mandarin. In doing your own
-self-evaluation, you should plot these scores as a function of time for sample input les.
+self-evaluation, you should plot these scores as a function of time for sample input files.
 ### 4 Evaluation
-Classication accuracy will be the primary metric for test set evaluation. The classication decision
+Classification accuracy will be the primary metric for test set evaluation. The classication decision
 will be based on the average of the probabilities over time.
 ### 5 Submission
 Please keep an eye on Piazza for submission related information. The above is a guideline and the

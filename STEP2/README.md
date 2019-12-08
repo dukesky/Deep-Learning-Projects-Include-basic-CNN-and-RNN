@@ -10,9 +10,9 @@ classes representing numbers 0{9. We have trained a MLP on MNIST, with a 784-neu
 layer, 2 hidden layers of 200 and 100 neurons, and a 10-neuron output layer. The activation
 functions used are ReLU for the hidden layers and softmax for the output layer.
 - (a) Extract the weights and biases of the trained network from mnist_network_params.hdf5.
-The le has 6 keys corresponding to numpy arrays W1, b1, W2, b2, W3, b3. You may want
+The file has 6 keys corresponding to numpy arrays W1, b1, W2, b2, W3, b3. You may want
 to check their dimensions by using the `shape' attribute of a numpy array.
-- (b) The le mnist_testdata.hdf5 contains 10,000 images in the key `xdata' and their corre-
+- (b) The file mnist_testdata.hdf5 contains 10,000 images in the key `xdata' and their corre-
 sponding labels in the key `ydata'. Extract these. Note that each image is 784-dimensional
 and each label is one-hot 10-dimensional. So if the label for an image is [0; 0; 0; 1; 0; 0; 0; 0; 0; 0],
 it means the image depicts a 3.
@@ -25,7 +25,7 @@ output layer.
 position of the maximum element in the MLP output matches with the position of the 1 in
 ydata. Find the total number of correctly classied images in the whole set of 10,000. You
 should get 9790 correct.
-- (f) Sample some cases with correct classication and some with incorrect classication. Visually
+- (f) Sample some cases with correct classification and some with incorrect classication. Visually
 inspect them. For those that are incorrect, is the correct class obvious to you? You can use
 matplotlib for visualization:
 `import matplotlib.pyplot as plt`
