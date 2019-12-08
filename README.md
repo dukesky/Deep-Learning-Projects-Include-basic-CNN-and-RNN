@@ -1,12 +1,12 @@
-# Deep Learning Project (basic CNN, RNN in python)
+# Deep Learning Project (include basic CNN, RNN in python)
 
 ##### Table of Contents  
 - [Introduction](#Introduction)  
-- [STEP1-begin familiar with python pakage](#STEP1)  
-- [STEP2-implement MLP in MNIST Dataset](#STEP2) 
-- [STEP3-back propogation](#STEP3) 
-- [STEP4-human emotion classification (CNN)](#STEP4)   
-- [STEP5-language detection (RNN)](#STEP5)   
+- [STEP1-begin familiar with python pakage](#STEP1-begin-familiar-with-python-pakage)  
+- [STEP2-implement MLP in MNIST Dataset](#STEP2-implement-MLP-in-MNIST-Dataset) 
+- [STEP3-back propogation](#STEP3-back-propogation) 
+- [STEP4-human emotion classification (CNN)](#STEP4-human-emotion-classification-(CNN))   
+- [STEP5-language detection (RNN)](#STEP5-language-detection-(RNN))   
 - [Others](#Others)
 
 ## Introduction
