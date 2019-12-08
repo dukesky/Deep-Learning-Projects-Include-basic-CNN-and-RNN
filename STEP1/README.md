@@ -27,7 +27,7 @@ but, just as in matlab, you need to enter for a[0] in the Python routine.
 Use linear normalized frequency v, which is unique on [-1/2, +1/2] and has units of
 cycles per sample. *Hint: use `scipy.signal.freqz`*.
 
- ![image1](../images/q2.png)
+ ![image1](../STEP1/images/q2.png)
 ---
 Figure 1: The general format and notation for an ARMA filter. The arrays of AR coefficients a[n]
 and MA coefficients b[n] dene the filter. The order of teh filter is the number of delay elements in
