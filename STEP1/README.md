@@ -26,8 +26,8 @@ but, just as in matlab, you need to enter for a[0] in the Python routine.
 - (b) Plot the magnitude of the frequency response for \alpha = 0.9, \alpha = 0.5, $alpha$ = 0.1, \alpha = -0.5.
 Use linear normalized frequency v, which is unique on [-1/2, +1/2] and has units of
 cycles per sample. *Hint: use `scipy.signal.freqz`*.
----
-![image1](../images/q2.png)
+
+ ![image1](../images/q2.png)
 ---
 Figure 1: The general format and notation for an ARMA filter. The arrays of AR coefficients a[n]
 and MA coefficients b[n] dene the filter. The order of teh filter is the number of delay elements in
